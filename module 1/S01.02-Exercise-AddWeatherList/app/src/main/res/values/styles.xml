@@ -14,16 +14,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<resources>
 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
-    <!--TODO (2) Add an id to the TextView with the value @+id/tv_toy_names-->
-    <TextView
-        android:id="@+id/tv_toy_names"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="20sp" />
-</FrameLayout>
+</resources>

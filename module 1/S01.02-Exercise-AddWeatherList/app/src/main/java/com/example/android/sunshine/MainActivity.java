@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.favoritetoys;
+package com.example.android.sunshine;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,23 +21,23 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // TODO (1) Declare a TextView variable called mToysListTextView
-    TextView mToysListTextView;
+    // TODO (1) Create a field to store the weather display TextView
+    private TextView weatherListTextview;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        mToysListTextView = (TextView) findViewById(R.id.tv_toy_names);
+        setContentView(R.layout.activity_forecast);
+        weatherListTextview = (TextView) findViewById(R.id.tv_weather_data);
 
-        // TODO (3) Use findViewById to get a reference to the TextView from the layout
+        // TODO (2) Use findViewById to get a reference to the weather display TextView
 
-        // TODO (4) Use the static ToyBox.getToyNames method and store the names in a String array
+        // TODO (3) Create an array of Strings that contain fake weather data
 
-
-        // TODO (5) Loop through each toy and append the name to the TextView (add \n for spacing)
-        String[] toynames = ToyBox.getToyNames();
-        for (String toyName : toynames) {
-            mToysListTextView.append(toyName +"\n\n\n");
+        // TODO (4) Append each String from the fake weather data array to the TextView
+        String[] weatherdata = {"Summer","Winter","Rainy","Spring"};
+        for( String weatherinfo : weatherdata ) {
+            weatherListTextview.append(weatherinfo +"\n\n\n");
         }
     }
 }
