@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "939226865910",
+    "firebase_url": "https://project-shopping-kart.firebaseio.com",
+    "project_id": "project-shopping-kart",
+    "storage_bucket": "project-shopping-kart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939226865910:android:4b7c937612edd6e8",
+        "android_client_info": {
+          "package_name": "com.example.shoppingkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939226865910-e2531ct0uvh6h7qbgp42l98gotnmce91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoppingkart",
+            "certificate_hash": "e5ebbf887d7aa1a4d326543e7e5adccaed381d48"
+          }
+        },
+        {
+          "client_id": "939226865910-1som3rghljhidgiko9vpsr6v9ms7q6r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiU9BbkSW9uPLkfBZsuEPPx1jwnZ8Zbfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939226865910-1som3rghljhidgiko9vpsr6v9ms7q6r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
